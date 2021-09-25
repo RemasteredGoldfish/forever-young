@@ -19,19 +19,24 @@ for i in range(2):
     robotArm.moveLeft()
 robotArm.grab()
 
-robotArm.moveRight()
+for i in range(1):
+    robotArm.moveRight()
 robotArm.drop()
 
-robotArm.moveRight()
+for i in range(1):
+    robotArm.moveRight()
 robotArm.grab()
 
-robotArm.moveLeft()
+for i in range(1):
+    robotArm.moveLeft()
 robotArm.drop()
 
-robotArm.moveRight()
+for i in range(1):
+    robotArm.moveRight()
 robotArm.grab()
 
-robotArm.moveLeft()
+for i in range(1):
+    robotArm.moveLeft()
 robotArm.drop()
 
 robotArm.wait()
